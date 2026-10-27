@@ -1,0 +1,25 @@
+# Large or private virtual machine artefacts
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+*.vbox
+*.vbox-prev
+*.sav
+*.iso
+
+# Credentials and local environments
+.env
+.env.*
+*.pem
+*.key
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
